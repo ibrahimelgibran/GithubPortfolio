@@ -19,7 +19,6 @@ import { Card, Grid, Loader } from "../components";
 import { Link, useParams } from "react-router-dom";
 
 const Home = () => {
-  const { keyword } = useParams();
   const { repos, loading } = useApiFetch();
   const { user } = useProfileFetch();
 
