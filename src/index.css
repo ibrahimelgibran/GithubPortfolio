@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+.link:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0px 2px 49px rgba(2, 106, 32, 0.07));
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
