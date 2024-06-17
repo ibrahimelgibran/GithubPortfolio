@@ -6,13 +6,9 @@ const Footer = () => {
   return (
     <Container>
       <small>
-        Made with <span className="heart">❤</span> by{" "}
-        <a
-          href="https://github.com/ibrahimelgibran"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Ibrahim El Gibran
+        made with <span className="heart">❤</span> by me{" "}
+        <a href="https://ibrahimelgibran.com" target="_blank" rel="noreferrer">
+          iegcode
         </a>{" "}
         &copy; {date}
       </small>
