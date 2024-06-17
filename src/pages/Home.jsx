@@ -14,6 +14,7 @@ import galaxy from "../assets/galaxy.png";
 import pullshark from "../assets/pull-shark-kuicpet.png";
 import quickdraw from "../assets/quickdraw-default.png";
 import pair from "../assets/pair-extraordinaire-default.png";
+import startstruck from "../assets/starstruck.png";
 
 import { Card, Grid, Loader } from "../components";
 import { Link, useParams } from "react-router-dom";
@@ -106,7 +107,15 @@ const Home = () => {
                 <FiStar />
                 PRO
               </span>
-
+              <a
+                href="https://github.com/ibrahimelgibran?tab=achievements&achievement=starstruck"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>
+                  <img src={startstruck} alt="" />
+                </span>
+              </a>
               <a
                 href="https://github.com/ibrahimelgibran?achievement=pair-extraordinaire&tab=achievements"
                 target="_blank"
@@ -159,7 +168,7 @@ const Home = () => {
               {repos &&
                 repos.length > 0 &&
                 repos
-                  .slice(1, 5)
+                  .slice(1, 10)
                   .map((item, i) => (
                     <Card
                       key={i}
